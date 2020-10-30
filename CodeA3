@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume YUHUA LIAO</title>
+	<script src="./js/jquery.min.js"> </script>
+	<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	body,td,th {
+	font-family: Lato, sans-serif;
+}
+    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+<meta charset="utf-8">
+</head>
+<body>
+<!------headerbg starts--------->
+ <div id="top-top" class="headerbg">
+	 <!------header starts--------->
+	   <div class="header">
+		 <!------container starts--------->
+			  <div class="container">
+				   <div class="logo">
+						<a href="#">LIAO YU HUA</a>
+				   </div>
+				  <!------Navigation starts--------->
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#about">ABOUT ME</a></li>
+						 <li><a class="scroll" href="#skills">SKILLS</a></li>
+						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
+						 <li><a class="scroll" href="#contact">CONTACT</a></li>
+					 </ul>
+				 </div>
+				  <!------Navigation ends-------->
+					<div class="clear"></div>
+			  </div>
+		 <!------container ends--------->
+	   </div>
+	 <!------header ends--------->
+	 <!------Banner starts--------->
+	   <div class="banner">
+	      <div class="container">
+	        <div class="clear">
+	          <div class="banner-info">
+	            <div class="bannerlogo"> <img src="images/diamond.png"> </div>
+	            <div class="bannerhead">
+	              <h2>My name is <span>LIAO YU HUA</span></h2>
+	              <h2>This is my intention to make a brief introduction about me and <span>my work and my thoughts. </span></h2>
+	              
+	              <p>About the display of my own work. </p>
+	              <a class="downarrow scroll" href="#about"><span> </span></a> </div>
+              </div>
+	        </div>
+		  </div>
+	  </div>
+	  <!------Banner ends-------->
+ </div>
+ <!------Headerbg ends-------->
+ <!------Content starts--------->
+ <div class="content">
+	 <!------About starts--------->
+	   <div id="about" class="about">
+		   <a name="about"> </a>
+		 <div class="container">
+			   <div class="header-section text-center">
+				  <h2><span> </span>ABOUT   ME<span> </span></h2>
+				  </div>
+				 <span><p>Yuhua Liao is a person who is more persistent in his works, has his own opinions on color, and likes to innovate. At the same time, I am constantly learning and understanding art, hoping to improve my artistic taste.
+		   </p></span>
+					 
+			  <div class="years">	 
+				<h4><b>2020</b></h4>
+				 <span><h4>In Australia</h4></span>
+				 <p><i>I have gone through many places in school, but her favorite is Australia. She likes the culture of this country and the happiness it brings to her. And in Sydney, she met a lot of very good and responsible teachers, which also brought her great inspiration.</i></p>
+			  </div> 
+				
+			  <div class="years">	 		
+				
+				 <span><h4>SKILLS</h4></span>
+				 <a><img src='images/skills.png'></a>
+			  </div> 
+					
+			   <div class="years">	 	
+				 <h4><b>2020</b></h4>
+				 <span><h4>Chromatics</h4></span>
+				 <div class="labs">
+					 <p><i>Color is the reflection of different objects accepted by the naked eye, and the recognition of color is the visual nerve sensation caused by the naked eye being stimulated by electromagnetic radiation, which is "a subjective consciousness". The way modern humans create colors: different colors in the spectrum (screen) and pigments (printing) will produce different temperature sensations.</i></p>
+			     </div>
+			  </div>
+				 <a class="arrow scroll" href="#skills"><span> </span></a>
+		  </div>
+	  </div>
+	 <!------About Ends--------->
+	 
+	<!------SKILLS Starts--------->
+	  <div id="skills" class="skills">
+	  <div class="container">
+	     <div class="skills-grids">
+			  <div class="skill-section text-center">
+				  <h2><span> </span>SKILLS<span> </span></h2>
+			  </div>
+					  <div class="services_grids">
+						  <div id="canvas">
+								<div class="skill-grids text-center">
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-1"></div>									
+												 <h3>AE</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-2"></div>									
+												 <h3>ID</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-3"></div>									
+												 <h3>AI</h3>	
+											 </div>								  
+										</div>
+										<div class="col-md-3">	
+											<div class="skill-grid">
+												<div class="circle" id="circles-4"></div>									
+												 <h3>PS</h3>	
+											 </div>								  
+										</div>
+										<div class="clearfix"> </div>
+								  </div>
+						   </div>
+					  </div>
+					<!---->
+					 <script type="text/javascript" src="./js/circles.js"></script>
+								 <script>
+									var colors = [
+											['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']
+										];
+									var proportions = [
+										55, 70, 80, 90
+									]
+									for (var i = 1; i <= 5; i++) {
+										var child = document.getElementById('circles-' + i),
+											percentage = proportions[i-1];
+											
+										Circles.create({
+											id:         child.id,
+											percentage: percentage,
+											radius:     80,
+											width:      15,
+											number:   	percentage,
+											text:       '%',
+											colors:     colors[i - 1]
+										});
+									}
+							
+					</script>
+					
+					<!--/-->
+			 </div>
+		 </div>
+		   <a class="down scroll" href="#port"></a>
+	  </div>
+	  </div>
+	 <!------SKILLS Ends--------->
+		 <!------PORTFOLIO Starts--------->
+		 <div id="port" class="Portfolio">
+			  <div class="Portfolio-section text-center">
+			      <h2><span> </span>Gallery<span> </span></h2>
+			  </div>
+			  <div class="container">
+				  <div class="portfolio-grids">
+					  <div class="portfolio-grid col-md-4">
+						 <a href="work.html"><img src='images/_MG_4224W.jpg'></a>
+						  <p>Black and white</p>
+						  <a class="rightarrow" href="work.html"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="work2.html"><img src='images/monitr3.jpg'></a>
+						  <p>Icon</p>
+						  <a class="rightarrow" href="work2.html"><span> </span></a>
+					  </div>
+					  <div class="portfolio-grid col-md-4">
+						  <a href="work3.html"><img src='images/works/works1.jpg'></a>
+						  <p>Exhibition</p>
+						  <a class="rightarrow" href="work3.html"><span> </span></a>
+					  </div>
+					  <div class="clear"> </div>
+				  </div>
+				  <a class="portdown scroll" href="#contact"><span> </span></a>
+				  
+			  </div>
+		 </div>
+  </div>
+  <!------Content Ends-------->
+  
+  <!------FOOTER Starts----------->
+  <div  id="contact" class="footer">
+      <div class="container">
+	  
+		   <div class="contact-section text-center">
+			  <h2><span> </span>CONTACT<span> </span></h2>
+		  </div>
+		 <div class="row">
+		 
+			 <div class="col-md-6">
+				  <div class="footer-left">
+						<div class="social-icons">
+						   <a href="https://www.instagram.com/ruirui.liao/?hl=zh-cn"><img src="images/in.png"></a>
+						   <a href="https://www.facebook.com/profile.php?id=100013941945013&ref=bookmarks"><img src='images/fb.png'></a>
+					   </div>
+					   <p>There are many ways to contact with me.
+						On the right, you can directly fill in the email to contact with me.
+						And click on the small icon above to see the author's social websites.
+						This page shows part of Yuhua Liao’s works, helping people previewing the page to better understand the author and her psychology when creating
+						Liaorr12.8@gmail.com.</p>
+				  </div>
+			 </div>
+			  
+			  <div class="col-md-6">
+				  <div class="footer-right">
+				 <div class="form">
+				 <form>
+					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					 <div class="clear"> </div>
+					 <a style="border: 1px solid #000000; padding: 15px; background-color: aliceblue;" href="Mailto:Liaorr12.8@gmail.com">SEND</a>
+				 </form>
+				 </div>
+				  </div>
+				  <div class="clear"></div>
+				  
+			  </div>
+		 </div>
+	 	</div>
+	 <a class="up scroll" href="#top-top"><span> </span></a>
+ 	</div>
+ </body>
+ </html>
+ 
+   
